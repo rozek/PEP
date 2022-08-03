@@ -10,7 +10,7 @@ PEP polyfills pointer events in all browsers that haven't yet implemented them, 
 
 PEP development ceased in 2018. A few minor maintenance patches have been pushed since then, and the latest version (0.5.3) has been published to [npm](https://www.npmjs.com/package/pepjs). However, native support for Pointer Events is relatively good in most browsers at this point - see [caniuse: Pointer Events](https://caniuse.com/pointer). This project is now archived.
 
-> **Important note: this fork is practically identical to [the original repository](https://github.com/jquery-archive/PEP) and has only been created in order to publish a minified version of "PEP" as an npm module - all credits still go to [the original authors](https://github.com/jquery-archive/PEP/blob/master/AUTHORS.txt)**
+> **Important note: this fork is practically identical to [the original repository](https://github.com/jquery-archive/PEP) and has only been created in order to publish a minified version of "PEP" as an npm module (called [pepjs-minified](https://unpkg.com/pepjs-minified)) - all credits still go to [the original authors](https://github.com/jquery-archive/PEP/blob/master/AUTHORS.txt)**
 
 ## Getting Started
 
