@@ -70,5 +70,7 @@ export function applyPolyfill() {
     });
 
     console.log('PEP.js: PointerCapture polyfill has been installed')
+  } else {
+    console.log('PEP.js: no PointerCapture polyfill needed')
   }
 }
