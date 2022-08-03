@@ -1,5 +1,5 @@
 /*!
- * PEP v0.5.4 | https://github.com/jquery/PEP
+ * PEP v0.5.5 | https://github.com/jquery/PEP
  * Copyright jQuery Foundation and other contributors | http://jquery.org/license
  */
 
@@ -1446,6 +1446,8 @@
       dispatcher.register(document);
 
       console.log('PEP.js: PointerEvent polyfill has been installed')
+    } else {
+      console.log('PEP.js: no PointerEvent polyfill needed')
     }
   }
 
@@ -1521,6 +1523,8 @@
       });
 
       console.log('PEP.js: PointerCapture polyfill has been installed')
+    } else {
+      console.log('PEP.js: no PointerCapture polyfill needed')
     }
   }
 
