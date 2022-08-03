@@ -1,6 +1,6 @@
 {
   "name": "pepjs-minified",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Polyfill of the PointerEvents W3C spec",
   "main": "dist/pep.min.js",
   "author": {
