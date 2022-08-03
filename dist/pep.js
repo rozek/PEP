@@ -1444,6 +1444,8 @@
       }
 
       dispatcher.register(document);
+
+      console.log('PEP.js: PointerEvent polyfill has been installed')
     }
   }
 
@@ -1517,6 +1519,8 @@
           value: h
         }
       });
+
+      console.log('PEP.js: PointerCapture polyfill has been installed')
     }
   }
 
