@@ -31,5 +31,7 @@ export function applyPolyfill() {
     dispatcher.register(document);
 
     console.log('PEP.js: PointerEvent polyfill has been installed')
+  } else {
+    console.log('PEP.js: no PointerEvent polyfill needed')
   }
 }
