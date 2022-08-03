@@ -29,5 +29,7 @@ export function applyPolyfill() {
     }
 
     dispatcher.register(document);
+
+    console.log('PEP.js: PointerEvent polyfill has been installed')
   }
 }
