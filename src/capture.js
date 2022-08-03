@@ -68,5 +68,7 @@ export function applyPolyfill() {
         value: h
       }
     });
+
+    console.log('PEP.js: PointerCapture polyfill has been installed')
   }
 }
